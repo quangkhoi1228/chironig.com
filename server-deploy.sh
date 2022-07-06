@@ -1,1 +1,2 @@
-nohup python -m SimpleHTTPServer 8081 &
+#!/bin/bash
+python -m SimpleHTTPServer 8081
