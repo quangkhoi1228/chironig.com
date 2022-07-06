@@ -1,1 +1,1 @@
-screen -L python -m SimpleHTTPServer 8081  &
+screen -L python -m SimpleHTTPServer 8081
