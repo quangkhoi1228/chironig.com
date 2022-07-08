@@ -1,0 +1,14 @@
+{
+  "name": "chironig.com",
+  "version": "1.0.0",
+  "main": "index.html",
+  "repository": "https://github.com/quangkhoi1228/chironig.com.git",
+  "author": "quangkhoi1228@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "serve": "^13.0.4"
+  },
+  "scripts": {
+    "serve": "serve -s build -p 8081"
+  }
+}
