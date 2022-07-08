@@ -9,6 +9,7 @@
     "serve": "^13.0.4"
   },
   "scripts": {
-    "serve": "serve -s build -p 8081"
+    "serve": "git pull; nohup serve -s build -p 8081 & disown ; exit",
+    "deploy" : "ssh shinobiweb@vpsserver \"cd /home/shinobiweb/chironig.com ; yarn serve\""
   }
 }
